@@ -17,6 +17,8 @@ $blogCardTitleColor: #262626;
 
 // text color dark theme
 $textColorDark: #ffffff;
+$darkTitleColor: #ffffff;
+$darkCardSubtitle: #b5b5b5;
 
 // toggle switch colors
 $toggleCheck: #2196f3;
@@ -35,8 +37,14 @@ $lightBackground1: #fff;
 $lightBackground2: rgb(255, 255, 255);
 $lightBackground3: #f5f2f4;
 $blogCardContainerColor: #586069;
+
 // dark background colors
 $darkBackground: #171c28;
+$darkBackground2: #1f2430;
+
+// dark button colors
+$darkButtonColor: #645beb;
+$darkButtonHover: #7c71f5;
 
 // light theme box shadows
 $lightBoxShadowDark: rgba(0, 0, 0, 0.2);
@@ -60,6 +68,7 @@ $experienceCardBannerLG: linear-gradient(
 // borders
 $progressBarBackground: rgb(243, 239, 239);
 $lightBorder1: rgba(211, 211, 211, 0.397);
+$darkBorder1: #3e4451;
 $educationCardBorder: #a9a7f9;
 
 // hovers

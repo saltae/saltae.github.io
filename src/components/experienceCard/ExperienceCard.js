@@ -24,7 +24,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
             key={i}
             className={isDark ? "subTitle dark-mode-text" : "subTitle"}
           >
-            {item}
+            {item.split("\\n").map((line, j) => (
+              <div key={j}>{line}</div>
+            ))}
           </li>
         ))
       : null;
